@@ -18,6 +18,8 @@ function App() {
   const { fromCurrency, setFromCurrency, toCurrency, setToCurrency } =
     useContext(CurrencyContext);
 
+  useState(() => {}, []);
+
   const contStyle = {
     background: "#fdfd",
     display: "flex",
